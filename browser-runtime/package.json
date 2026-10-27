@@ -1,0 +1,13 @@
+{
+  "name": "jd-shopper-browser-runtime",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Attach to user-authorized existing Edge JD tabs with Playwright CDP, DOM observations and browser-local mouse input; dedicated browser and native Windows input are opt-in",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "koffi": "3.3.3",
+    "playwright": "1.62.1"
+  }
+}

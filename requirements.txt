@@ -1,0 +1,11 @@
+fastapi>=0.115,<1
+uvicorn>=0.34,<1
+openai>=1.60,<3
+python-dotenv>=1.0,<2
+pydantic>=2.10,<3
+pywinauto==0.6.9
+PyAutoGUI==0.9.54
+pyperclip>=1.9,<2
+psutil>=6,<8
+Pillow>=10,<13
+websocket-client>=1.8,<2

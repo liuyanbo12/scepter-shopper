@@ -1,0 +1,17 @@
+.browser-connection-help{border:1px solid var(--line);background:var(--light);border-radius:8px;padding:17px 20px;margin-bottom:20px;line-height:1.8;font-size:13px;color:var(--muted)}
+.browser-connection-help summary{cursor:pointer;font-weight:600;color:var(--text)}
+.browser-connection-help ol{padding-left:22px;margin:12px 0 8px}
+.browser-connection-help li+li{margin-top:4px}
+.browser-connection-help code{overflow-wrap:anywhere}
+.browser-tab-selection{border:1px solid var(--line);border-radius:8px;padding:20px;margin:16px 0 20px}
+.browser-tab-selection h2{font-size:17px;margin-bottom:6px}
+.browser-tab-selection>p{font-size:13px;color:var(--muted);line-height:1.8;margin-bottom:14px}
+.browser-tab-option{display:flex;width:100%;align-items:center;justify-content:space-between;gap:20px;text-align:left;background:white;border:1px solid var(--line);padding:15px 17px;border-radius:6px}
+.browser-tab-option+.browser-tab-option{margin-top:10px}
+.browser-tab-option:hover{border-color:var(--red);background:#fffafa}
+.browser-tab-option:disabled{opacity:.55}
+.browser-tab-option>span:first-child{min-width:0}
+.browser-tab-option strong{display:block;font-size:14px}
+.browser-tab-option small{display:block;color:var(--muted);font-size:12px;overflow-wrap:anywhere;margin-top:5px}
+.browser-tab-option>span:last-child{display:flex;align-items:center;gap:9px;white-space:nowrap;color:var(--red);font-size:13px}
+@media(max-width:560px){.app-header:has(.connection-button){flex-wrap:wrap}.app-header .connection-button{width:100%;font-size:13px}.browser-connection-help{padding:14px;font-size:12px}.browser-tab-selection{padding:16px}.browser-tab-option{align-items:flex-start;flex-direction:column;gap:12px}.browser-tab-option>span:last-child{align-self:flex-end}}
